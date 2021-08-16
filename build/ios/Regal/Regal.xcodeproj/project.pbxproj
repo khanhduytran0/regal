@@ -1965,6 +1965,7 @@
 		43FC5EE915C45EBB00D0177C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+                                CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/Regal.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -2001,6 +2002,7 @@
 		43FC5EEA15C45EBB00D0177C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+                                CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/Regal.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
