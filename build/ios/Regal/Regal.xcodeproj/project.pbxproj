@@ -1990,7 +1990,7 @@
 					../../../src/glsl/src/glsl,
 					../../../src/glsl/src/mesa,
 				);
-				OTHER_CFLAGS = "-DHAVE_CONFIG_H=1";
+				OTHER_CFLAGS = "-std=c++11 -DHAVE_CONFIG_H=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2026,7 +2026,7 @@
 					../../../src/glsl/src/glsl,
 					../../../src/glsl/src/mesa,
 				);
-				OTHER_CFLAGS = "-DHAVE_CONFIG_H=1";
+				OTHER_CFLAGS = "-std=c++11 -DHAVE_CONFIG_H=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
