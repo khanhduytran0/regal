@@ -34,9 +34,7 @@
 // and pthreads for Linux/Mac/Android
 
 #ifndef APITRACE_TLS
-# if REGAL_NO_TR1
-#  define APITRACE_TLS 0
-# elif defined(_MSC_VER) && _MSC_VER<1600
+# if defined(_MSC_VER) && _MSC_VER<1600
 #  define APITRACE_TLS 0
 # else
 #  define APITRACE_TLS 1
