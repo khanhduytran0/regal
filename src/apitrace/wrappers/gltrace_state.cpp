@@ -37,7 +37,7 @@
 # if defined(_MSC_VER) && _MSC_VER<1600
 #  define APITRACE_TLS 0
 # else
-#  define APITRACE_TLS 1
+#  define APITRACE_TLS 0
 # endif
 #endif
 
@@ -48,7 +48,7 @@
 #if defined(_MSC_VER) || (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) && __MAC_OS_X_VERSION_MIN_REQUIRED >= 1090)
 #include <memory>
 #else
-#include <tr1/memory>
+// #include <tr1/memory>
 #include <memory>
 #endif
 #endif
