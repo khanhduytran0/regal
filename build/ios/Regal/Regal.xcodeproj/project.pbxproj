@@ -413,8 +413,6 @@
 		BCDF670E178F179800EE9569 /* gltrace.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCDF6708178F179800EE9569 /* gltrace.hpp */; };
 		BCDF670F178F179800EE9569 /* regaltrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF6709178F179800EE9569 /* regaltrace.cpp */; };
 		BCDF6712178F179800EE9569 /* trace_file_zlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF670A178F179800EE9569 /* trace_file_zlib.cpp */; };
-		BCDF6713178F179800EE9569 /* highlight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF670B178F179800EE9569 /* highlight.cpp */; };
-		BCDF6714178F179800EE9569 /* highlight.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCDF670C178F179800EE9569 /* highlight.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -829,8 +827,6 @@
 		BCDF6708178F179800EE9569 /* gltrace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = gltrace.hpp; path = ../../../src/apitrace/wrappers/gltrace.hpp; sourceTree = "<group>"; };
 		BCDF6709178F179800EE9569 /* regaltrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = regaltrace.cpp; path = ../../../src/apitrace/wrappers/regaltrace.cpp; sourceTree = "<group>"; };
 		BCDF670A178F179800EE9569 /* trace_file_zlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trace_file_zlib.cpp; path = ../../../src/apitrace/common/trace_file_zlib.cpp; sourceTree = "<group>"; };
-		BCDF670B178F179800EE9569 /* highlight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = highlight.cpp; path = ../../../src/apitrace/common/highlight.cpp; sourceTree = "<group>"; };
-		BCDF670C178F179800EE9569 /* highlight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = highlight.hpp; path = ../../../src/apitrace/common/highlight.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1376,8 +1372,6 @@
 				BCDF6702178F176300EE9569 /* glsize.hpp */,
 				BCDF6708178F179800EE9569 /* gltrace.hpp */,
 				BCDF6707178F179800EE9569 /* gltrace_state.cpp */,
-				BCDF670B178F179800EE9569 /* highlight.cpp */,
-				BCDF670C178F179800EE9569 /* highlight.hpp */,
 				BCDF66B0178F172A00EE9569 /* os.hpp */,
 				BC4935011804FD53004385CA /* os_backtrace.cpp */,
 				BC4935021804FD53004385CA /* os_backtrace.hpp */,
@@ -1594,7 +1588,6 @@
 				435914FF182FF3A3002CB92C /* RegalShader.h in Headers */,
 				43591501182FF3A3002CB92C /* RegalShaderInstance.h in Headers */,
 				7558DB8C18C6795A008985A7 /* pcreposix.h in Headers */,
-				BCDF6714178F179800EE9569 /* highlight.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1895,7 +1888,6 @@
 				43591500182FF3A3002CB92C /* RegalShaderInstance.cpp in Sources */,
 				7558DB5518C6795A008985A7 /* pcre16_version.c in Sources */,
 				BCDF6712178F179800EE9569 /* trace_file_zlib.cpp in Sources */,
-				BCDF6713178F179800EE9569 /* highlight.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
