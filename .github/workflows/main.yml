@@ -30,12 +30,12 @@ jobs:
         run: |
           cd build/ios/Regal
           xcodebuild
-          # wget https://github.com/kakashidinho/metalangle/releases/download/gles3-0.0.7/MetalANGLE.framework.ios.zip
-          # unzip MetalANGLE.framework.ios.zip
-          # clang -dynamiclib -fPIC -arch arm64 -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -miphoneos-version-min=12.0 -F. -framework MetalANGLE -o libRegal.dylib -Wl,-all_load build/Release-iphoneos/libRegal.a
+          wget https://github.com/kakashidinho/metalangle/releases/download/gles3-0.0.7/MetalANGLE.framework.ios.zip
+          unzip MetalANGLE.framework.ios.zip
+          clang++ -dynamiclib -fPIC -arch arm64 -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -miphoneos-version-min=12.0 -F. -framework MetalANGLE -o libRegal.dylib -Wl,-all_load build/Release-iphoneos/libRegal.a
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
         with:
           name: libRegal
-          path: build/ios/Regal/build/Release-iphoneos/libRegal.a
+          path: build/ios/Regal/libRegal.dylib
