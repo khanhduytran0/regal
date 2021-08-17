@@ -68,7 +68,6 @@
 		43FC5FA715C461AC00D0177C /* civetweb.c in Sources */ = {isa = PBXBuildFile; fileRef = 43FC5FA615C461AC00D0177C /* civetweb.c */; };
 		754D3C9517CFFD7200E4C0E0 /* RegalEmu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754D3C9417CFFD7200E4C0E0 /* RegalEmu.cpp */; };
 		7558DB3D18C6795A008985A7 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DAE918C6795A008985A7 /* config.h */; };
-		7558DB3E18C6795A008985A7 /* dftables.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DAEA18C6795A008985A7 /* dftables.c */; };
 		7558DB3F18C6795A008985A7 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DAEC18C6795A008985A7 /* pcre.h */; };
 		7558DB4018C6795A008985A7 /* pcre16_byte_order.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DAED18C6795A008985A7 /* pcre16_byte_order.c */; };
 		7558DB4118C6795A008985A7 /* pcre16_chartables.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DAEE18C6795A008985A7 /* pcre16_chartables.c */; };
@@ -127,7 +126,6 @@
 		7558DB7618C6795A008985A7 /* pcre_globals.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2318C6795A008985A7 /* pcre_globals.c */; };
 		7558DB7718C6795A008985A7 /* pcre_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DB2418C6795A008985A7 /* pcre_internal.h */; };
 		7558DB7818C6795A008985A7 /* pcre_jit_compile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2518C6795A008985A7 /* pcre_jit_compile.c */; };
-		7558DB7918C6795A008985A7 /* pcre_jit_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2618C6795A008985A7 /* pcre_jit_test.c */; };
 		7558DB7A18C6795A008985A7 /* pcre_maketables.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2718C6795A008985A7 /* pcre_maketables.c */; };
 		7558DB7B18C6795A008985A7 /* pcre_newline.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2818C6795A008985A7 /* pcre_newline.c */; };
 		7558DB7C18C6795A008985A7 /* pcre_ord2utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB2918C6795A008985A7 /* pcre_ord2utf8.c */; };
@@ -143,11 +141,8 @@
 		7558DB8618C6795A008985A7 /* pcre_xclass.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB3318C6795A008985A7 /* pcre_xclass.c */; };
 		7558DB8718C6795A008985A7 /* pcrecpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DB3418C6795A008985A7 /* pcrecpp.h */; };
 		7558DB8818C6795A008985A7 /* pcrecpp_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DB3518C6795A008985A7 /* pcrecpp_internal.h */; };
-		7558DB8918C6795A008985A7 /* pcredemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB3618C6795A008985A7 /* pcredemo.c */; };
-		7558DB8A18C6795A008985A7 /* pcregrep.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB3718C6795A008985A7 /* pcregrep.c */; };
 		7558DB8B18C6795A008985A7 /* pcreposix.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB3818C6795A008985A7 /* pcreposix.c */; };
 		7558DB8C18C6795A008985A7 /* pcreposix.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DB3918C6795A008985A7 /* pcreposix.h */; };
-		7558DB8D18C6795A008985A7 /* pcretest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7558DB3A18C6795A008985A7 /* pcretest.c */; };
 		7558DB8E18C6795A008985A7 /* ucp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DB3C18C6795A008985A7 /* ucp.h */; };
 		7558DECD18C67E0F008985A7 /* stdbool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DD7918C67E0E008985A7 /* stdbool.h */; };
 		7558DECF18C67E0F008985A7 /* c99_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7558DD7B18C67E0E008985A7 /* c99_compat.h */; };
@@ -482,7 +477,6 @@
 		43FC5FA615C461AC00D0177C /* civetweb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = civetweb.c; path = ../../../src/civetweb/civetweb.c; sourceTree = "<group>"; };
 		754D3C9417CFFD7200E4C0E0 /* RegalEmu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RegalEmu.cpp; path = ../../../src/regal/RegalEmu.cpp; sourceTree = "<group>"; };
 		7558DAE918C6795A008985A7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		7558DAEA18C6795A008985A7 /* dftables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dftables.c; sourceTree = "<group>"; };
 		7558DAEC18C6795A008985A7 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
 		7558DAED18C6795A008985A7 /* pcre16_byte_order.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre16_byte_order.c; sourceTree = "<group>"; };
 		7558DAEE18C6795A008985A7 /* pcre16_chartables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre16_chartables.c; sourceTree = "<group>"; };
@@ -541,7 +535,6 @@
 		7558DB2318C6795A008985A7 /* pcre_globals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_globals.c; sourceTree = "<group>"; };
 		7558DB2418C6795A008985A7 /* pcre_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_internal.h; sourceTree = "<group>"; };
 		7558DB2518C6795A008985A7 /* pcre_jit_compile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_jit_compile.c; sourceTree = "<group>"; };
-		7558DB2618C6795A008985A7 /* pcre_jit_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_jit_test.c; sourceTree = "<group>"; };
 		7558DB2718C6795A008985A7 /* pcre_maketables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_maketables.c; sourceTree = "<group>"; };
 		7558DB2818C6795A008985A7 /* pcre_newline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_newline.c; sourceTree = "<group>"; };
 		7558DB2918C6795A008985A7 /* pcre_ord2utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_ord2utf8.c; sourceTree = "<group>"; };
@@ -557,11 +550,8 @@
 		7558DB3318C6795A008985A7 /* pcre_xclass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcre_xclass.c; sourceTree = "<group>"; };
 		7558DB3418C6795A008985A7 /* pcrecpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpp.h; sourceTree = "<group>"; };
 		7558DB3518C6795A008985A7 /* pcrecpp_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpp_internal.h; sourceTree = "<group>"; };
-		7558DB3618C6795A008985A7 /* pcredemo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcredemo.c; sourceTree = "<group>"; };
-		7558DB3718C6795A008985A7 /* pcregrep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcregrep.c; sourceTree = "<group>"; };
 		7558DB3818C6795A008985A7 /* pcreposix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcreposix.c; sourceTree = "<group>"; };
 		7558DB3918C6795A008985A7 /* pcreposix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcreposix.h; sourceTree = "<group>"; };
-		7558DB3A18C6795A008985A7 /* pcretest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcretest.c; sourceTree = "<group>"; };
 		7558DB3C18C6795A008985A7 /* ucp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucp.h; sourceTree = "<group>"; };
 		7558DD7918C67E0E008985A7 /* stdbool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdbool.h; sourceTree = "<group>"; };
 		7558DD7B18C67E0E008985A7 /* c99_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c99_compat.h; sourceTree = "<group>"; };
@@ -1022,7 +1012,6 @@
 			isa = PBXGroup;
 			children = (
 				7558DAE918C6795A008985A7 /* config.h */,
-				7558DAEA18C6795A008985A7 /* dftables.c */,
 				7558DAEC18C6795A008985A7 /* pcre.h */,
 				7558DAED18C6795A008985A7 /* pcre16_byte_order.c */,
 				7558DAEE18C6795A008985A7 /* pcre16_chartables.c */,
@@ -1081,7 +1070,6 @@
 				7558DB2318C6795A008985A7 /* pcre_globals.c */,
 				7558DB2418C6795A008985A7 /* pcre_internal.h */,
 				7558DB2518C6795A008985A7 /* pcre_jit_compile.c */,
-				7558DB2618C6795A008985A7 /* pcre_jit_test.c */,
 				7558DB2718C6795A008985A7 /* pcre_maketables.c */,
 				7558DB2818C6795A008985A7 /* pcre_newline.c */,
 				7558DB2918C6795A008985A7 /* pcre_ord2utf8.c */,
@@ -1097,11 +1085,8 @@
 				7558DB3318C6795A008985A7 /* pcre_xclass.c */,
 				7558DB3418C6795A008985A7 /* pcrecpp.h */,
 				7558DB3518C6795A008985A7 /* pcrecpp_internal.h */,
-				7558DB3618C6795A008985A7 /* pcredemo.c */,
-				7558DB3718C6795A008985A7 /* pcregrep.c */,
 				7558DB3818C6795A008985A7 /* pcreposix.c */,
 				7558DB3918C6795A008985A7 /* pcreposix.h */,
-				7558DB3A18C6795A008985A7 /* pcretest.c */,
 				7558DB3C18C6795A008985A7 /* ucp.h */,
 			);
 			name = pcre;
@@ -1693,7 +1678,6 @@
 				43FC5F9315C4619B00D0177C /* RegalInit.cpp in Sources */,
 				43FC5F9515C4619B00D0177C /* RegalLog.cpp in Sources */,
 				7558DB4518C6795A008985A7 /* pcre16_exec.c in Sources */,
-				7558DB8D18C6795A008985A7 /* pcretest.c in Sources */,
 				7558DB6C18C6795A008985A7 /* pcre32_version.c in Sources */,
 				43FC5F9715C4619B00D0177C /* RegalLookup.cpp in Sources */,
 				7558DB5118C6795A008985A7 /* pcre16_tables.c in Sources */,
@@ -1707,7 +1691,6 @@
 				43FC5FA215C4619B00D0177C /* RegalUtil.cpp in Sources */,
 				7558DB5F18C6795A008985A7 /* pcre32_globals.c in Sources */,
 				7558DED318C67E0F008985A7 /* getopt_long.c in Sources */,
-				7558DB8A18C6795A008985A7 /* pcregrep.c in Sources */,
 				43FC5FA715C461AC00D0177C /* civetweb.c in Sources */,
 				4366EEEF15C9B54E00211205 /* RegalFavicon.cpp in Sources */,
 				4366EEF115C9B54E00211205 /* RegalMac.cpp in Sources */,
@@ -1769,7 +1752,6 @@
 				BC3209D416F3A0E600D1A9E0 /* RegalCacheShader.cpp in Sources */,
 				7558DF4318C67E0F008985A7 /* lower_packing_builtins.cpp in Sources */,
 				7558DF0818C67E0F008985A7 /* ir.cpp in Sources */,
-				7558DB3E18C6795A008985A7 /* dftables.c in Sources */,
 				7558DB4218C6795A008985A7 /* pcre16_compile.c in Sources */,
 				BC3209D616F3A0E600D1A9E0 /* RegalCacheTexture.cpp in Sources */,
 				7558DB7518C6795A008985A7 /* pcre_get.c in Sources */,
@@ -1779,7 +1761,6 @@
 				7558DB7118C6795A008985A7 /* pcre_config.c in Sources */,
 				7558DF5E18C67E0F008985A7 /* ralloc.c in Sources */,
 				7558DF6418C67E0F008985A7 /* strtod.c in Sources */,
-				7558DB8918C6795A008985A7 /* pcredemo.c in Sources */,
 				7558DF3218C67E0F008985A7 /* linker.cpp in Sources */,
 				BC59F9EA174809EE004BC2AC /* RegalTexC.cpp in Sources */,
 				BC59F9EB174809EE004BC2AC /* RegalXfer.cpp in Sources */,
@@ -1804,7 +1785,6 @@
 				7558DB4D18C6795A008985A7 /* pcre16_printint.c in Sources */,
 				BCDF66A1178F170300EE9569 /* snappy-sinksource.cc in Sources */,
 				BCDF66A3178F170300EE9569 /* snappy.cc in Sources */,
-				7558DB7918C6795A008985A7 /* pcre_jit_test.c in Sources */,
 				7558DEFF18C67E0F008985A7 /* glsl_parser.cpp in Sources */,
 				7558DF7B18C67E0F008985A7 /* symbol_table.c in Sources */,
 				BCDF66D6178F172A00EE9569 /* os_posix.cpp in Sources */,
