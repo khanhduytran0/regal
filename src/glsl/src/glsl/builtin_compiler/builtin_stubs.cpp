@@ -27,6 +27,7 @@
 /* A dummy file.  When compiling prototypes, we don't care about builtins.
  * We really don't want to half-compile builtin_functions.cpp and fail, though.
  */
+#ifndef __APPLE__
 void
 _mesa_glsl_release_functions(void)
 {
@@ -37,3 +38,4 @@ _mesa_glsl_initialize_functions(_mesa_glsl_parse_state *state)
 {
    (void) state;
 }
+#endif
