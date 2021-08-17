@@ -412,7 +412,6 @@
 		BCDF670D178F179800EE9569 /* gltrace_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF6707178F179800EE9569 /* gltrace_state.cpp */; };
 		BCDF670E178F179800EE9569 /* gltrace.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCDF6708178F179800EE9569 /* gltrace.hpp */; };
 		BCDF670F178F179800EE9569 /* regaltrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF6709178F179800EE9569 /* regaltrace.cpp */; };
-		BCDF6712178F179800EE9569 /* trace_file_zlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCDF670A178F179800EE9569 /* trace_file_zlib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -826,7 +825,6 @@
 		BCDF6707178F179800EE9569 /* gltrace_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gltrace_state.cpp; path = ../../../src/apitrace/wrappers/gltrace_state.cpp; sourceTree = "<group>"; };
 		BCDF6708178F179800EE9569 /* gltrace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = gltrace.hpp; path = ../../../src/apitrace/wrappers/gltrace.hpp; sourceTree = "<group>"; };
 		BCDF6709178F179800EE9569 /* regaltrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = regaltrace.cpp; path = ../../../src/apitrace/wrappers/regaltrace.cpp; sourceTree = "<group>"; };
-		BCDF670A178F179800EE9569 /* trace_file_zlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trace_file_zlib.cpp; path = ../../../src/apitrace/common/trace_file_zlib.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1397,7 +1395,6 @@
 				BCDF66BA178F172A00EE9569 /* trace_file_read.cpp */,
 				BCDF66BB178F172A00EE9569 /* trace_file_snappy.cpp */,
 				BCDF66BC178F172A00EE9569 /* trace_file_write.cpp */,
-				BCDF670A178F179800EE9569 /* trace_file_zlib.cpp */,
 				BCDF66C0178F172A00EE9569 /* trace_format.hpp */,
 				BCDF66C1178F172A00EE9569 /* trace_loader.cpp */,
 				BCDF66C2178F172A00EE9569 /* trace_loader.hpp */,
@@ -1887,7 +1884,6 @@
 				7558DB6718C6795A008985A7 /* pcre32_study.c in Sources */,
 				43591500182FF3A3002CB92C /* RegalShaderInstance.cpp in Sources */,
 				7558DB5518C6795A008985A7 /* pcre16_version.c in Sources */,
-				BCDF6712178F179800EE9569 /* trace_file_zlib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
